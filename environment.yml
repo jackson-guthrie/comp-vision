@@ -1,0 +1,23 @@
+name: cv-learning-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.18
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - pyarrow
+  - opencv
+  - pillow
+  - pywavelets
+  - imagehash
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - pandas
+  - pdf2image
+  - transformers
+  - pytesseract
+  - datasets
