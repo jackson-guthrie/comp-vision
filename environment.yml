@@ -3,8 +3,10 @@ channels:
   - pytorch
   - conda-forge
   - defaults
+  - nvidia
+  - xformers
 dependencies:
-  - python=3.10.18
+  - python=3.10
   - numpy
   - matplotlib
   - jupyterlab
@@ -13,8 +15,14 @@ dependencies:
   - pillow
   - pywavelets
   - imagehash
-  - pytorch
-  - torchvision
+  - pytorch::pytorch>=
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda
+  - omegaconf
+  - torchmetrics
+  - fvcore
+  - iopath
+  - xformers::xformers=0.0.18
   - scikit-learn
   - pandas
   - pdf2image
